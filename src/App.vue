@@ -5,6 +5,8 @@ import Customer from "./components/Customer.vue";
 import Employee from './components/Employee.vue';
 import Counter from './components/Counter.vue';
 import Register from './components/Register.vue';
+import Auth from './components/Auth.vue';
+import UserListData from './components/UserListData.vue';
 </script>
 
 <template>
@@ -27,6 +29,9 @@ import Register from './components/Register.vue';
         <Employee />
         <Counter />
         <Register />
+        <Auth />
+        <UserListData />
+
       </div>
     </div>
   </div>
