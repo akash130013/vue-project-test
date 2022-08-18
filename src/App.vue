@@ -7,9 +7,14 @@ import Counter from './components/Counter.vue';
 import Register from './components/Register.vue';
 import Auth from './components/Auth.vue';
 import UserListData from './components/UserListData.vue';
+import NavBar from './components/NavBar.vue';
+
 </script>
 
 <template>
+  <div>
+    <NavBar />
+    <router-view />
   <div class="container mt-3">
     <div class="grid">
       <div class="row">
@@ -30,13 +35,12 @@ import UserListData from './components/UserListData.vue';
         <Counter />
         <Register />
         <Auth />
-        <UserListData />
+        <!-- <UserListData /> -->
 
       </div>
     </div>
   </div>
+  </div>
 </template>
 
-<style scoped>
 
-</style>
