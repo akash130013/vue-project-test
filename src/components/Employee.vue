@@ -2,6 +2,7 @@
   <div class="container">
       <div class="row">
           <div class="column">
+              <h2>Passing data from state</h2>
               <p>This is employee components</p>
               <ul class="list-group">
                   <li class="list-group-item">Name: {{this.employee.name}}</li>

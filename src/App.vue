@@ -1,8 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 import Customer from "./components/Customer.vue";
-import Employee from './components/Employee.vue'
+import Employee from './components/Employee.vue';
+import Counter from './components/Counter.vue';
+import Register from './components/Register.vue';
 </script>
 
 <template>
@@ -23,11 +25,13 @@ import Employee from './components/Employee.vue'
         </div>
         <Customer name="John" age="32" designation="Engineer" />
         <Employee />
+        <Counter />
+        <Register />
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-@import "./assets/style.css";
+
 </style>

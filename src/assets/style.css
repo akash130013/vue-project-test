@@ -2,8 +2,14 @@
 
 body{
     font-family: sans-serif;
+   
 }
 
 h2{
     color: lightblue;
 }
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+

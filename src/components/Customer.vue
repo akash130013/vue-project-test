@@ -3,6 +3,7 @@
    <div class="container">
       <div class="row">
           <div class="column">
+              <h2>Passing Props</h2>
               <p>Customer Data</p>
               <ul class="list-group">
                   <li class="list-group-item">Name : {{name}}</li>
